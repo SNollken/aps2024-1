@@ -1,0 +1,45 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.background-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    z-index: -1; 
+}
+
+.background {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: url('/imagens/cubo3.png');
+    background-size: 2% 3%;
+    animation: scrollBackground 100s linear infinite;
+    background-color: rgba(255, 255, 255, 0.171);
+}
+
+@keyframes scrollBackground {
+    from { background-position: 0 0; }
+    to { background-position: -100% -100%; }
+}
+
+
+.list-group {
+    background-color: rgba(0, 0, 0, 0.899);
+}
+
+.list-group-item {
+    border:2px solid #000000
+    background-color #f8f9fa;
+    color: #343a40;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 10px;
+}
+

@@ -1,0 +1,15 @@
+.centered-content {
+    text-align: center;
+  }  
+
+.concentred-content img {
+    display: block;
+    margin:0 auto;
+    max-width: 100;
+    height: auto;
+}
+
+.centered-content i {
+    display: block;
+    margin-top: 2rem;
+}

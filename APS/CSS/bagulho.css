@@ -1,0 +1,9 @@
+.list-group-item {
+    display: flex;
+    align-items: center;
+  }
+  .list-group-item img {
+    margin-left: auto;
+    width: 24px; /* Tamanho do ícone */
+    height: 24px; /* Tamanho do ícone */
+  }
